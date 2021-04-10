@@ -4,12 +4,23 @@ import ReactDOM from "react-dom";
 ReactDOM.render(
   <div>
     <h1 className="heading">My Favorite Foods</h1>
-    <ul>
-      <li>Grilled Shrimp</li>
-      <li>Ribs</li>
-      <li>Lamb</li>
-      <li>Rice</li>
-    </ul>
+    <div>
+      <img
+        className="food-img"
+        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/grilledshrimp-1525299887.jpg"
+        alt="Grilled Shrimp"
+      />
+      <img
+        className="food-img"
+        src="https://chowhound3.cbsistatic.com/2014/09/30741_easy_bbq_baby_back_ribs_3000x2000.jpg"
+        alt="BBQ Ribs"
+      />
+      <img
+        className="food-img"
+        src="https://foremangrillrecipes.com/wp-content/uploads/featured-foreman-lamb-chops.jpg"
+        alt="Grilled Lamb Chops"
+      />
+    </div>
   </div>,
   document.getElementById("root")
 );

@@ -2,6 +2,9 @@
   color: #660000;
 }
 
-ul {
-  color: green;
+.food-img {
+  width: 500px;
+  height: auto;
+  padding: 5px;
+  border: 1px solid #ddd;
 }
