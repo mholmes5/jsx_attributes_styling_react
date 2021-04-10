@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-const img = "https://picsum.photos/id/1041/500";
+const img = "https://picsum.photos/500";
 
 ReactDOM.render(
   <div>
