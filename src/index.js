@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
+const img = "https://picsum.photos/id/1041/500";
+
 ReactDOM.render(
   <div>
     <h1 className="heading">My Favorite Foods</h1>
@@ -20,6 +22,7 @@ ReactDOM.render(
         src="https://foremangrillrecipes.com/wp-content/uploads/featured-foreman-lamb-chops.jpg"
         alt="Grilled Lamb Chops"
       />
+      <img className="food-img" src={img} alt="random" />
     </div>
   </div>,
   document.getElementById("root")
